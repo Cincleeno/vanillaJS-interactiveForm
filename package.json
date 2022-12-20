@@ -1,0 +1,29 @@
+{
+  "name": "vanillajs-interactiveform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles.css -o build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cincleeno/vanillaJS-interactiveForm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cincleeno/vanillaJS-interactiveForm/issues"
+  },
+  "homepage": "https://github.com/Cincleeno/vanillaJS-interactiveForm#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "postcss-cli": "^10.1.0",
+    "watch": "^0.13.0"
+  }
+}
