@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/styles/common.css">
     <title>Tailwind Vanilla JS</title>
 </head>
-<body>
+<body class="relative flex h-screen w-full text-center text-white items-center justify-center bg-peach">
+ 
+<svg class="wave absolute left-0 top-0 w-100" viewBox="0 0 1200 250">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z" fill="#FF82A9"/>
+  </svg>
+      
+    <!-- component -->
+<div class="flex h-screen w-full items-center justify-center bg-cover bg-no-repeat">
+    <div class="rounded-xl bg-primary bg-opacity-50 px-16 py-10 shadow-lg backdrop-blur-md max-sm:px-8">
+      <div class="text-white">
+        <div class="mb-8 flex flex-col items-center">
+          <h1 class="mb-2 text-2xl">Chating Setting</h1>
+          <span class="text-gray-300">Enter Login Details</span>
+        </div>
+        <form action="#">
+          <div class="mb-4 text-lg">
+            <input id="demo" class="rounded-lg border-none bg-opacity-50 px-6 py-2 text-primary text-center shadow-lg outline-none backdrop-blur-md" type="text" name="name" placeholder="Username" />
+          </div>
+  
+          <div class="mb-4 text-lg">
+            <input id="demo" class="input rounded-lg border-none bg-opacity-50 px-6 text-primary py-2 text-center shadow-lg outline-none backdrop-blur-md" type="Password" name="name" placeholder="Password" />
+          </div>
+          <div class="mt-8 flex justify-center text-lg text-white">
+            <button type="submit" class="button rounded-lg bg-opacity-50 px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
