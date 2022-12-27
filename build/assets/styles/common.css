@@ -1,0 +1,6 @@
+html, body {height: 100%;}
+
+body {
+  box-sizing: border-box;
+  padding: 1rem;
+}
